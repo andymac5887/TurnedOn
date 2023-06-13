@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TurnedOn</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<script>
+		 function bulb_on(){
+      document.getElementById('bulb').src='https://i.postimg.cc/6QyTynzr/bulb-on.png';
+  }
+  function bulb_off(){
+      document.getElementById('bulb').src='https://i.postimg.cc/KjK1wL3c/bulb-off.png';
+  }
+  	</script>
+
+	<header>TurnedOn</header>
+	<nav></nav>
+	<main>
+		<section>
+        <img src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" id="bulb" width="200">
+        <div class="btn_container"><button id="on" class="bulb_btn" onclick="bulb_on()">TurnedOn?</button>
+        <button id="off" class="bulb_btn" onclick="bulb_off()">TurnedOff?</button></div>
+    	</section>
+	</main>
+	<footer>BecAndy&copy 2023</footer>
+
+</body>
+</html>
