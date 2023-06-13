@@ -16,6 +16,7 @@ header {
   font-size: 100px;
   text-align: center;
 }
+
 .button {
   border: none;
   color: white;
@@ -24,6 +25,30 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#on {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#off {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
   margin: 4px 2px;
   cursor: pointer;
 }
