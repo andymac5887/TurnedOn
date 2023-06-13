@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  margin: 10;
-  padding: 10;
+  margin: 20px;
+  padding: 20px;
   font-family: "Lexend Mega", sans-serif;
   color: white;
   background-color: rgb(160, 32, 240);
@@ -37,7 +37,7 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
-  margin: 4px 2px;
+  margin: 10px 10px;
   cursor: pointer;
 }
 
@@ -49,10 +49,14 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 60px;
-  margin: 4px 2px;
+  margin: 10px 10px;
   cursor: pointer;
 }
 
 footer {
   position:fixed;bottom:0;left:0;right:0;height:30px;
+}
+
+.img {
+	padding: 20px;
 }
