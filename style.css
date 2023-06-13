@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Lexend Mega", sans-serif;
   color: white;
-  background-color: rgb(160, 32, 240);
+  background-color: #EACAFF;
   font-size: 22px;
   text-align: center;
 }
@@ -12,19 +12,19 @@ header {
   padding: 20px;
   font-family: "Lexend Mega", sans-serif;
   color: white;
-  background-color: rgb(160, 32, 240);
   font-size: 100px;
   text-align: center;
 }
 
-.button {
+.loginbutton {
   border: none;
+  background-color: #D697FF;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 50px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -32,6 +32,7 @@ header {
 #on {
   border: none;
   color: white;
+  background-color: #D697FF;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -44,6 +45,7 @@ header {
 #off {
   border: none;
   color: white;
+  background-color: #D697FF;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
